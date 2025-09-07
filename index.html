@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lav Emet - Laverie Automatique Moderne et Économique | Machines Electrolux</title>
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <meta name="theme-color" content="#007AFF">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lav Emet - Laverie Automatique Moderne">
+    <meta name="twitter:description" content="Laverie automatique moderne équipée de machines à laver et sèche-linge haut de gamme Electrolux. Ouverte 7 jours sur 7, de 7h à 22h.">
+    <meta name="twitter:image" content="images/social-share.jpg">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Lav Emet",
+      "image": "images/logo.png",
+      "description": "Laverie automatique moderne équipée de machines à laver et sèche-linge haut de gamme Electrolux",
+      "openingHours": "Mo-Su 07:00-22:00",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "140 rue Peyssonnel",
+        "addressLocality": "Marseille",
+        "postalCode": "13002",
+        "addressCountry": "FR"
+      }
+    }
+    </script>
+    
+    <meta name="description" content="Laverie automatique moderne équipée de machines à laver et sèche-linge haut de gamme Electrolux. Ouverte 7 jours sur 7, de 7h à 22h.">
+    <meta name="keywords" content="laverie automatique, laverie libre-service, laverie self-service, machines Electrolux, lavage couette, séchoir, paiement CB, laverie écologique">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lav-emet.fr/">
+    <meta property="og:title" content="Lav Emet - Laverie Automatique Moderne">
+    <meta property="og:description" content="Laverie automatique moderne équipée de machines Electrolux. Ouverte 7j/7 de 7h à 22h. Lavage rapide et économique.">
+    <meta property="og:image" content="images/hero-laundromat.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://lav-emet.fr/">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+</head>
+<body>
+<div class="min-h-screen bg-white">
+    <nav class="absolute w-full z-50" role="navigation" aria-label="Navigation principale">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="flex items-center justify-between h-20">
+                <a href="/" class="text-2xl font-display text-white" aria-label="Accueil Lav Emet">Lav Emet</a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#services" class="text-white hover:text-white/80 transition-colors">Nos tarifs</a>
+                    <a href="#locations" class="text-white hover:text-white/80 transition-colors">Nos laveries</a>
+                    <a href="#footer" class="text-white hover:text-white/80 transition-colors">Nous Contacter</a>
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border hover:text-accent-foreground h-10 px-4 py-2 text-black border-white bg-white hover:bg-white/90">
+                        <a class="btn-savoir-plus btn-light" href="#entrepreneur" aria-label="En savoir plus sur l'ouverture d'une laverie">
+                            Ouvrir une laverie</a>
+                    </button>
+                </div>
+                <div class="md:hidden">
+                    <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10 text-white" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r0:" data-state="closed">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6">
+                            <line x1="4" x2="20" y1="12" y2="12"></line>
+                            <line x1="4" x2="20" y1="6" y2="6"></line>
+                            <line x1="4" x2="20" y1="18" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="relative h-screen" role="banner">
+        <div class="absolute inset-0">
+            <img src="images/hero-laundromat.jpg" alt="Laverie moderne et professionnelle Lav Emet" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-b from-[#007AFF]/40 to-black/40"></div>
+        </div>
+        <div class="relative h-full flex items-center justify-center">
+            <div class="text-center text-white px-4">
+                <h1 class="text-5xl md:text-6xl font-display mb-6">Lav Emet</h1>
+                <p class="text-xl md:text-2xl mb-8">Votre laverie automatique nouvelle génération</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ... ton contenu reste inchangé ... -->
+    
+    <footer id="footer" style="background-color: #262626;" class="text-white py-16">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="text-center md:text-left">
+                    <h3 class="font-display text-2xl mb-6">Lav Emet</h3>
+                    <p class="text-estate-300">Votre laverie automatique nouvelle génération.</p>
+                </div>
+                <!-- reste du footer inchangé -->
+            </div>
+            <div class="pt-8 border-t border-estate-700/30 text-center text-estate-400">
+                <p> 2025 Lav Emet. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
